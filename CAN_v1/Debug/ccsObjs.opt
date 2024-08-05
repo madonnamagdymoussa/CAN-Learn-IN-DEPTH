@@ -1,0 +1,11 @@
+"./CAN.obj"
+"./CAN_config.obj"
+"./GPIO.obj"
+"./GPIO_config.obj"
+"./NVIC.obj"
+"./SystemControl.obj"
+"./SystemControl_Config.obj"
+"./main.obj"
+"./tm4c123gh6pm_startup_ccs.obj"
+"../tm4c123gh6pm.cmd"
+-llibc.a
