@@ -1,0 +1,597 @@
+System Information
+-------------------------------------------------------------------------------------------
+Operating system:	 Windows 10 10.0 build 19045 , 64bit app on 64bit OS
+System directory:	 C:\Windows\system32
+CPU speed:	 2592MHz
+Physical memory:	 16202MB
+ - Available :	 6778MB
+Executed at:	 24.8.2024 12:24:47.811
+
+Vector Hardware Config Information
+-------------------------------------------------------------------------------------------
+Version:	 22.20.20 BrNr:60030 Suppl:VBRC(4) 28.10.22 14:12
+
+Hardware Tree
+-------------------------------------------------------------------------------------------
+[HW] Virtual CAN Bus 1 (000100)
+   -[c] Virtual CAN
+       -[a] CANoe  CAN 1
+   -[c] Virtual CAN
+[HW] VX1131 1 (offline)
+   -[c] Channel 1 - FLEXRAY
+   -[c] Channel 2 - CAN1
+   -[c] Channel 3 - CAN2
+   -[c] Channel 4 - CAN3
+   -[c] Channel 5 - CAN4
+
+
+Hardware Information
+-------------------------------------------------------------------------------------------
+Found:	 2 Channels
+
+Channel Index 0.
+Hardware:                       Virtual CAN Bus 0
+Article:                        007000
+Serial:                         100
+Name:                           Virtual CAN Bus Channel 1
+Channel on hw:                  0
+On bus:                         No
+Transceiver type:               0x16 Virtual CAN
+Physical Layer HW Revision:     0
+Channel Bus caps:               0x1
+Channel Bus active caps:        0x1
+Channel connected bus type:     0x0
+Version driver:                 21.10.20
+Version FPGA:                   0.0.0
+Version FPGA2:                  0.0.0
+Version firmware:               0.0.0
+Version BC:                     0.0.0
+Version HW revision:            1.0 (0)
+Version CAB:                    0.0.0
+Parameters:                     500000Bd sjw=0x1 tseg1=0x4 tseg2=0x3 sam=0x1
+Licenses:
+
+Channel Index 1.
+Hardware:                       Virtual CAN Bus 0
+Article:                        007000
+Serial:                         100
+Name:                           Virtual CAN Bus Channel 2
+Channel on hw:                  1
+On bus:                         No
+Transceiver type:               0x16 Virtual CAN
+Physical Layer HW Revision:     0
+Channel Bus caps:               0x1
+Channel Bus active caps:        0x1
+Channel connected bus type:     0x0
+Version driver:                 21.10.20
+Version FPGA:                   0.0.0
+Version FPGA2:                  0.0.0
+Version firmware:               0.0.0
+Version BC:                     0.0.0
+Version HW revision:            1.0 (0)
+Version CAB:                    0.0.0
+Parameters:                     500000Bd sjw=0x1 tseg1=0x4 tseg2=0x3 sam=0x1
+Licenses:
+
+Registry Information
+-------------------------------------------------------------------------------------------
+
+SOFTWARE\Vector\ASAP2 Tool-Set
+	\SBL_CHECK_13.0	 01 (0x0001)
+
+SOFTWARE\Vector\ASAP2Studio\ASAP2StudioViewer\2.4
+	\Version	 2.4.34.10885
+	\Path	 C:\Program Files\Vector ASAP2 Studio\ASAP2StudioViewer 2.4\
+
+SOFTWARE\Vector\AutosarExplorer
+	\Path	 C:\Program Files\Vector AUTOSAR Explorer\
+	\Version	 2.3.33
+
+SOFTWARE\Vector\CANdelaStudio\21
+	\IniPath	 C:\ProgramData\Vector\CANdelaStudio\21
+	\Path	 C:\Program Files\Vector CANdelaStudio 21\
+	\Version	 21.0.0.1
+
+SOFTWARE\Vector\CANDriver 1.0\defaults\Virtual CAN Bus0_0
+	\bitrate	 500000 (0x7a120)
+	\sam	 01 (0x0001)
+	\sjw	 01 (0x0001)
+	\tseg1	 04 (0x0004)
+	\tseg2	 03 (0x0003)
+
+SOFTWARE\Vector\CANDriver 1.0\defaults\Virtual CAN Bus0_1
+	\bitrate	 500000 (0x7a120)
+	\sam	 01 (0x0001)
+	\sjw	 01 (0x0001)
+	\tseg1	 04 (0x0004)
+	\tseg2	 03 (0x0003)
+
+SOFTWARE\Vector\CANDriver 1.0\Drivers\vcanv
+	\MaxCards	 04 (0x0004)
+	\TimerEligibility	 256 (0x0100)
+	\ChannelsPerCard	 02 (0x0002)
+	\HwType	 01 (0x0001)
+	\HwName	 Virtual
+	\DriverName	 vcanv
+
+SOFTWARE\Vector\CANDriver 1.0\Drivers\vnIpClient
+	\MaxCards	 16 (0x0010)
+	\TimerEligibility	 256 (0x0100)
+	\ChannelsPerCard	 09 (0x0009)
+	\HwType	 69 (0x0045)
+	\RemoteNetApiSupport	 01 (0x0001)
+	\DriverName	 vnIpClient
+
+SOFTWARE\Vector\CANDriver 1.0\Drivers\vnNetEnum
+	\UseDeviceInterface	 01 (0x0001)
+
+SOFTWARE\Vector\CANDriver 1.0\Drivers\vnNetEnum\Class
+	\	 Not found
+
+SOFTWARE\Vector\CANDriver 1.0\Drivers\vnNetEnum\Enum
+	\	 Not found
+
+SOFTWARE\Vector\CANDriver 1.0\Drivers\vnNetEnum\Options
+	\	 Not found
+
+SOFTWARE\Vector\CANDriver 1.0\Drivers\vTSService
+	\UseDeviceInterface	 01 (0x0001)
+
+SOFTWARE\Vector\CANDriver 1.0\Drivers\vx1131
+	\MaxCards	 16 (0x0010)
+	\TimerEligibility	 2048 (0x0800)
+	\ChannelsPerCard	 05 (0x0005)
+	\HwType	 75 (0x004b)
+	\RemoteNetApiSupport	 01 (0x0001)
+	\DriverName	 vx1131
+
+SOFTWARE\Vector\CANDriver 1.0\Hardware\vx1131
+	\RxTransferCycleTime	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Hardware\VX1135
+	\NoAutoUpdate	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Hardware\VX1161.41A
+	\NoAutoUpdate	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Hardware\VX1161.41B
+	\NoAutoUpdate	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Options
+	\AutoEnableSWCHighSpeed	 00 (0x0000)
+	\DebugFlags	 00 (0x0000)
+	\EnableTimeSync	 01 (0x0001)
+	\TxQueueSize	 256 (0x0100)
+	\VirtualBus	 01 (0x0001)
+	\OEMInstallation	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANalyzer.DAIO0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANalyzer.FlexRay0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANalyzer.K-Line0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANalyzer.LIN0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANalyzer.LIN1
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANalyzer0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANalyzer1
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANalyzer2
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANalyzer3
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANape.DAIO0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANape.FlexRay0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANape.K-Line0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANape.LIN0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANape.LIN1
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANape0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANape1
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANape2
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANape3
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANoe.DAIO0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANoe.FlexRay0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANoe.K-Line0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANoe.LIN0
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANoe.LIN1
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANoe0
+	\hwType	 01 (0x0001)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANoe1
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANoe2
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANDriver 1.0\Software\CANoe3
+	\hwType	 00 (0x0000)
+	\hwIndex	 00 (0x0000)
+	\hwChannel	 00 (0x0000)
+
+SOFTWARE\Vector\CANoe\18.0
+	\Installation	 1
+	\Path	 d:\CANoe_Demo18_Davinci\Installation_VectorFamily
+	\IconFolder	 Vector CANoe Family 18
+	\Version	 18.2.65
+	\ServicePack	 2
+	\VIAVersion	 1.28
+	\UserFolder	 C:\Users\Public\Documents\Vector\CANoe Family\18 (x64)
+	\SettingsFolder	 C:\ProgramData\Vector\CANoe Family\18 (x64)
+
+SOFTWARE\Vector\CANoe\ILConfDefinitions
+	\Vector	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\ILConfiguration\VectorILConfDefinitions.xml
+
+SOFTWARE\Vector\CANoe\NodelayerModulePaths
+	\SCC_ChargePoint	 C:\ProgramData\Vector\SmartCharging Components\CCS\Modules\SCC_ChargePoint.vmodule
+	\SCC_Vehicle	 C:\ProgramData\Vector\SmartCharging Components\CCS\Modules\SCC_Vehicle.vmodule
+	\SCC_Monitor	 C:\ProgramData\Vector\SmartCharging Components\CCS\Modules\SCC_Monitor.vmodule
+	\AsrNM30	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\AsrNM30.vmodule
+	\AutosarFlexRayNM30	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\AutosarFlexRayNM30.vmodule
+	\AutosarFlexRayNM32	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\AutosarFlexRayNM32.vmodule
+	\CANoeILNLVector	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\CANoeILNLVector.vmodule
+	\OSEKNM01	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\OSEKNM01.vmodule
+	\CANoeILNLDefault	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\CANoeILNLDefault.vmodule
+	\AsrUdpNm	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\AsrUdpNm.vmodule
+	\DMOSEKNM	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\DMOSEKNM.vmodule
+	\AsrPDUIL	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\AsrPDUIL.vmodule
+	\AsrPDUIL2	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\AsrPDUIL2.vmodule
+	\AsrNM33	 C:\ProgramData\Vector\AddOn Packages\Vector AddOn\vModules\AsrNM33.vmodule
+	\SecMgrCANoeClient	 C:\ProgramData\Vector\Security Manager\Modules\CANoe\SecMgrCANoeClient.vmodule
+	\X509Api	 C:\ProgramData\Vector\Security Manager\Modules\CANoe\X509Api.vmodule
+
+SOFTWARE\Vector\CANoe Test Bench Edition\18.0
+	\Installation	 1
+	\Path	 d:\CANoe_Demo18_Davinci\Installation_VectorFamily
+	\IconFolder	 Vector CANoe Family 18
+	\Version	 18.2.65
+	\ServicePack	 2
+	\VIAVersion	 1.28
+	\UserFolder	 C:\Users\Public\Documents\Vector\CANoe Family\18 (x64)
+	\SettingsFolder	 C:\ProgramData\Vector\CANoe Family\18 (x64)
+
+SOFTWARE\Vector\CANoeAddOnsHelpPaths
+	\Vector AddOn	 C:\Users\Public\Documents\Vector\AddOn Packages\Vector AddOn\
+
+SOFTWARE\Vector\Modeling AddOns
+	\	 Not found
+
+SOFTWARE\Vector\Modeling AddOns\Vector Modeling Components AddOn\4.0.73
+	\DisplayVersion	 4.0.73
+	\DisplayName	 Vector Modeling Components Add-On
+	\ProductName	 Vector Modeling Components Add-On
+	\Version	 4.0.73
+
+SOFTWARE\Vector\ODXStudio\11
+	\Path	 C:\Program Files\Vector ODXStudio 11\
+	\Version	 11.0.2100
+
+SOFTWARE\Vector\ShellExtensions
+	\Version	 6.0.14829
+
+SOFTWARE\Vector\ShellExtensions\General
+	\Log	 00 (0x0000)
+
+SOFTWARE\Vector\SmartCharging\v4\SCC_Observer
+	\ModulePath	 C:\ProgramData\Vector\SmartCharging Components\CCS\v4\Exec64\SCC_Obs.dll
+	\minAppVersion	 14.0
+
+SOFTWARE\Vector\Test Report Viewer\18.0.11
+	\MinSchemaCompatible	 0
+	\MinSchemaNoMigration	 202308291517129
+	\MaxSchemaNoMigration	 202403011342561
+	\AnnotationMinSchemaCompatible	 0
+	\AnnotationMinSchemaNoMigration	 202308291517129
+	\AnnotationMaxSchemaNoMigration	 202403011343233
+
+SOFTWARE\Vector\VectorProtocolHandler\CANoe
+	\EnvVar	 CANoe_InstallDir
+	\ProductInstallationName	 CANoe Family
+	\Launcher	 Vector.CANalyzer.Launcher.dll
+
+SOFTWARE\Vector\VectorProtocolHandler\CANoeTBE
+	\ProductInstallationName	 CANoe Family
+	\EnvVar	 CANoe_InstallDir
+	\Launcher	 Vector.CANalyzer.Launcher.dll
+
+SOFTWARE\Vector\VHWCONF\1.0
+	\WPOSL	 00 (0x0000)
+	\WPOSR	 879 (0x036f)
+	\WPOST	 00 (0x0000)
+	\WPOSB	 603 (0x025b)
+	\WIDTH_CORR	 00 (0x0000)
+
+SOFTWARE\Vector\VIOConfigTool\5.2.1
+	\Path	 C:\Program Files\Vector Informatik GmbH\VIO System Configuration Tool\
+
+SOFTWARE\Vector\vTESTstudio
+	\Path	 C:\Program Files\Vector vTESTstudio Viewer 9\Exec64
+	\RegisteredVersion	 9.0.151.0
+	\IsFullLicense	 False
+
+SOFTWARE\Vector\vTESTstudio Viewer\9.0
+	\	 Not found
+
+SOFTWARE\Vector\vTESTstudio Viewer\9.0.151.0
+	\Path	 C:\Program Files\Vector vTESTstudio Viewer 9\Exec64
+
+SOFTWARE\Vector\VTSystemTools\1.6.0
+	\Path	 C:\Program Files\Vector Informatik GmbH\Vector VT System Tools\
+
+SOFTWARE\Classes\CLSID\{3f8ce83c-986d-4a1f-be9e-cc259fd0042e}
+	\	 Vector Hardware
+	\LocalizedString	 Vector Hardware
+	\InfoTip	 Vector Hardware Configuration
+	\System.Application	 Vector.HwConfig
+	\System.ControlPanel.Category	 2,3,8
+	\System.Software.TasksFileUrl	 Not found
+
+SOFTWARE\Classes\CLSID\{3f8ce83c-986d-4a1f-be9e-cc259fd0042e}\DefaultIcon
+	\	 %SystemRoot%\system32\vcanconf.exe,-128
+
+SOFTWARE\Classes\CLSID\{3f8ce83c-986d-4a1f-be9e-cc259fd0042e}\Shell\Open\Command
+	\	 %SystemRoot%\system32\vcanconf.exe
+
+SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\vEthConfig.exe
+	\	 C:\Program Files (x86)\Vector Hardware Manager\VHD\Ethernet Device Configuration.exe
+	\Path	 C:\Program Files (x86)\Vector Hardware Manager\VHD\
+
+SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\vTsConfig.exe
+	\	 C:\Program Files (x86)\Vector Hardware Configuration Tools\vTSConfig\vTSConfig.exe
+	\Path	 C:\Program Files (x86)\Vector Hardware Configuration Tools\vTSConfig\
+
+SYSTEM\CurrentControlSet\Services\vcanv
+	\Type	 01 (0x0001)
+	\Start	 02 (0x0002)
+	\ErrorControl	 01 (0x0001)
+	\ImagePath	 system32\drivers\vcanv.sys
+	\DisplayName	 Virtual CAN Bus Driver
+
+SYSTEM\CurrentControlSet\Services\vnIpClient
+	\Type	 01 (0x0001)
+	\Start	 02 (0x0002)
+	\ErrorControl	 01 (0x0001)
+	\ImagePath	 system32\drivers\vnIpClient.sys
+	\DisplayName	 Vector TCP/IP Client Driver
+
+SYSTEM\CurrentControlSet\Services\vnIpClient\Parameters\Wdf
+	\WdfMajorVersion	 01 (0x0001)
+	\WdfMinorVersion	 09 (0x0009)
+	\KmdfLibraryVersion	 1.9
+
+SYSTEM\CurrentControlSet\Services\vnnetenum
+	\Type	 01 (0x0001)
+	\Start	 03 (0x0003)
+	\ErrorControl	 01 (0x0001)
+	\ImagePath	 \SystemRoot\system32\DRIVERS\vnNetEnum.sys
+	\DisplayName	 @oem118.inf,%vnNetEnum.SVCDESC%;Vector Network Enumerator
+	\Owners	 oem118.inf
+
+SYSTEM\CurrentControlSet\Services\vnnetenum\Parameters\Wdf
+	\WdfMajorVersion	 01 (0x0001)
+	\WdfMinorVersion	 09 (0x0009)
+	\KmdfLibraryVersion	 1.9
+
+SYSTEM\CurrentControlSet\Services\vnnetenum\Enum
+	\0	 ROOT\VNNETENUM\0000
+	\Count	 01 (0x0001)
+	\NextInstance	 01 (0x0001)
+
+SYSTEM\CurrentControlSet\Services\vtsservice
+	\Type	 01 (0x0001)
+	\Start	 03 (0x0003)
+	\ErrorControl	 01 (0x0001)
+	\ImagePath	 \SystemRoot\system32\DRIVERS\vTSService.sys
+	\DisplayName	 @oem116.inf,%vTSService.SVCDESC%;Vector Timesync Service
+	\Owners	 oem116.inf
+
+SYSTEM\CurrentControlSet\Services\vtsservice\Parameters\Wdf
+	\WdfMajorVersion	 01 (0x0001)
+	\WdfMinorVersion	 09 (0x0009)
+	\KmdfLibraryVersion	 1.9
+
+SYSTEM\CurrentControlSet\Services\vtsservice\Enum
+	\0	 ROOT\VTSSERVICE\0000
+	\Count	 01 (0x0001)
+	\NextInstance	 01 (0x0001)
+
+SYSTEM\CurrentControlSet\Services\VX1131
+	\Type	 01 (0x0001)
+	\Start	 02 (0x0002)
+	\ErrorControl	 01 (0x0001)
+	\ImagePath	 system32\drivers\vx1131.sys
+	\DisplayName	 VX1131 Driver
+
+SYSTEM\CurrentControlSet\Services\VX1131\Parameters\Wdf
+	\WdfMajorVersion	 01 (0x0001)
+	\WdfMinorVersion	 09 (0x0009)
+	\KmdfLibraryVersion	 1.9
+-------------------------------------------------------------------------------------------
+Installation files information:
+ 
+File name: C:\Windows\system32\drivers\vcanv.sys
+Version:   21.10.20
+Date:      26.8.2021 0:30
+File size: 90440 Byte
+Status:    Running
+File name: C:\Windows\system32\drivers\vx1131.sys
+Version:   10.0.28
+Date:      19.3.2019 3:34
+File size: 448288 Byte
+Status:    Running
+File name: C:\Windows\system32\drivers\vnIpClient.sys
+Version:   23.20.20
+Date:      1.9.2023 4:24
+File size: 736800 Byte
+Status:    Running
+File name: C:\Windows\system32\drivers\VX1131.sys
+Version:   10.0.28
+Date:      19.3.2019 3:34
+File size: 448288 Byte
+Status:    Running
+File name: C:\Windows\system32\drivers\vnNetEnum.sys
+Version:   24.20.10
+Date:      2.5.2024 7:55
+File size: 592680 Byte
+Status:    Running
+File name: C:\Windows\system32\drivers\vTSService.sys
+Version:   24.20.16
+Date:      28.6.2024 1:03
+File size: 554888 Byte
+Status:    Running
+File name: C:\Windows\system32\vcanconf.exe
+Version:   22.20.20
+Date:      28.10.2022 14:13
+File size: 10546688 Byte
+Status:    Found
+File name: C:\Windows\SysWOW64\vcndrvms.dll
+Version:   24.20.14 BrNr:60060 Suppl:VBRC(4) 10.06.24 13:41
+Date:      10.6.2024 13:41
+File size: 1192960 Byte
+Status:    Found
+File name: C:\Windows\system32\vcndrvms64.dll
+Version:   24.20.14 BrNr:60060 Suppl:VBRC(4) 10.06.24 13:41
+Date:      10.6.2024 13:41
+File size: 1319424 Byte
+Status:    Found
+File name: C:\Windows\SysWOW64\vdonglew.dll
+Version:   11.6.10
+Date:      21.7.2020 12:53
+File size: 422912 Byte
+Status:    Found
+File name: C:\Windows\SysWOW64\vKeyman.dll
+Version:   24.10.16
+Date:      21.2.2024 12:03
+File size: 10466816 Byte
+Status:    Found
+File name: C:\Windows\system32\vKeyman64.dll
+Version:   24.10.16
+Date:      21.2.2024 12:03
+File size: 8393216 Byte
+Status:    Found
+File name: C:\Windows\SysWOW64\WibuCm32.dll
+Version:   7.60.5638
+Date:      13.10.2023 7:53
+File size: 1165152 Byte
+Status:    Found
+File name: C:\Windows\system32\WibuCm64.dll
+Version:   7.60.5638
+Date:      13.10.2023 7:53
+File size: 1203040 Byte
+Status:    Found
+File name: C:\Program Files (x86)\CodeMeter\Runtime\bin\CodeMeter.exe
+Version:   7.60.5638
+Date:      13.10.2023 7:53
+File size: 29759344 Byte
+Status:    Found
+File name: C:\Program Files\Common Files\WIBU Shared\Plugins\6000166-CodeMeterPlugin.dll
+Version:   24.10.10
+Date:      10.6.2024 13:51
+File size: 1306624 Byte
+Status:    Found
+File name: C:\Program Files\Common Files\WIBU Shared\Plugins\6000166-CodeMeterPlugin.wbc
+Version:   0.0.0
+Date:      10.6.2024 13:51
+File size: 1070 Byte
+Status:    Found
+File name: C:\Program Files (x86)\Vector Hardware Manager\VHD\Ethernet Device Configuration.exe
+Version:   24.20.16
+Date:      28.6.2024 10:46
+File size: 109568 Byte
+Status:    Found
+File name: C:\Program Files (x86)\Vector Hardware Configuration Tools\vTSConfig\vTSConfig.exe
+Version:   22.20.20
+Date:      27.3.2023 18:18
+File size: 263680 Byte
+Status:    Found

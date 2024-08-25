@@ -1,0 +1,53 @@
+{
+  "Content": {
+    "Devices": [
+      {
+        "DeviceInfo": {
+          "ConnectionType": 0,
+          "DriverVersionMajor": 9,
+          "DriverVersionMinor": 1,
+          "HardwareIndex": 1,
+          "HardwareRevision": 1,
+          "IdentificationMethod": 1,
+          "Modules": {},
+          "PartNumber": 7000,
+          "Piggies": {},
+          "RemoteDevices": [],
+          "SerialNumber": 100
+        },
+        "GpbConfig": "ChMIARIDVkhNGgoyNC4yMC4xNi4wQh0KGxDoBxjoB6IBBQgBEOgH8gEKGIABIIABKEswGQ==",
+        "Id": "47ec47e5-ad0d-452a-bd81-fd70c425bde9"
+      }
+    ],
+    "Host": {
+      "AppChannels": {
+        "AppChannelMappings": [
+          {
+            "AppChannelIndex": 0,
+            "Application": "CANoe",
+            "XlBusType": 1,
+            "HwChannel": 0,
+            "HwIndex": 0,
+            "HwType": 1
+          }
+        ],
+        "ApplicationNames": [
+          "CANalyzer",
+          "CANape",
+          "CANoe"
+        ],
+        "ToolAccessMappings": []
+      },
+      "TimeSync": {
+        "ProvideHwSync": false,
+        "ProvidePTP": false,
+        "ProvideSoftwareSyncLegacy": true,
+        "ReceivePTPEnabled": false
+      }
+    },
+    "NetworkVlanColors": {}
+  },
+  "Header": {
+    "ConfigVersion": "1.5"
+  }
+}
